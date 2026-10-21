@@ -28,6 +28,19 @@
       "page_subpages": 73,
       "content_versions": 74,
       "pages_index": "pages.json"
+    },
+    {
+      "id": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "path": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "first_header": "TVR\u0007110 Mie 21 Oct 2026 23:45:19",
+      "last_header": "TVR\u0007114 Joi 22 Oct 2026 00:00:19",
+      "packets": 404982,
+      "bytes": 17009244,
+      "sha256": "879b67ff10db99fd46248bb730f6235a49fb03e848c2450759f6bda52b7089c5",
+      "page_numbers": 46,
+      "page_subpages": 73,
+      "content_versions": 147,
+      "pages_index": "pages.json"
     }
   ],
   "continuity": "Separate bounded recordings with gaps; never presented as continuous."

@@ -25,6 +25,7 @@ separately. Counts include partial observed versions; see each recording's notes
 |---|---:|---:|---:|---:|
 | [TVR-20261021-223622--20261021-223642-1CFA0CE6](recordings/TVR-20261021-223622--20261021-223642-1CFA0CE6/notes.md) | 9,000 | 46 | 71 | 72 |
 | [TVR-20261021-231028--20261021-231327-4DED57B3](recordings/TVR-20261021-231028--20261021-231327-4DED57B3/notes.md) | 81,000 | 46 | 73 | 74 |
+| [TVR-20261021-234519--20261022-000019-0C46F8C1](recordings/TVR-20261021-234519--20261022-000019-0C46F8C1/notes.md) | 404,982 | 46 | 73 | 147 |
 
 The scanned multiplex associates the same teletext PID **117 / 0x75** with 11 TVR
 services: TVR 1, TVR 2, TVR 3, TVR Cluj, TVR Craiova, TVR Iasi, TVR Timisoara,
@@ -62,6 +63,15 @@ Then open http://127.0.0.1:8768/. For validation:
 ```sh
 python3 tools/verify-archive.py .
 ```
+
+## Validation
+
+All 293 per-recording page-version files reproduce exactly from the original
+packet offsets. T42 extraction reproduces exactly from each retained TS source.
+The [independent vhs-teletext check](independent-validation.json) agrees on all
+293 addresses and page-CRC calculations: 209 match a transmitted CRC, 81 have
+no transmitted CRC, and three partial transmissions end at a recording cutoff.
+Versions can recur between recordings; these are not 293 independent page numbers.
 
 ## Provenance and community references
 

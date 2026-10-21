@@ -2,9 +2,9 @@
   "tool": "ali1234/vhs-teletext",
   "revision": "f470629a3d5d3b0a577153832505e187beeb7204",
   "numpy_version": "1.26.4",
-  "checked_files": 146,
-  "crc_present": 106,
-  "crc_matches": 104,
+  "checked_files": 293,
+  "crc_present": 212,
+  "crc_matches": 209,
   "all_index_and_crc_calculations_agree": true,
   "results": [
     {
@@ -1173,6 +1173,1182 @@
       "file": "pages/P113-0004-231050-231319-4624ab318554.t42",
       "independent_calculated_crc": 34307,
       "expected_crc": 34307,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "111-0002",
+      "file": "pages/P111-0002-234519-235957-0bfb28306a0a.t42",
+      "independent_calculated_crc": 237,
+      "expected_crc": 237,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "111-0002",
+      "file": "pages/P111-0002-000003-000019-8e7638ff7cfd.t42",
+      "independent_calculated_crc": 18397,
+      "expected_crc": 18397,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "112-0002",
+      "file": "pages/P112-0002-234519-235957-fa1912d8df35.t42",
+      "independent_calculated_crc": 17148,
+      "expected_crc": 17148,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "112-0002",
+      "file": "pages/P112-0002-000003-000019-ad3a3afdfa57.t42",
+      "independent_calculated_crc": 1484,
+      "expected_crc": 1484,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "113-0007",
+      "file": "pages/P113-0007-234519-235949-2d1138c0f9d4.t42",
+      "independent_calculated_crc": 62831,
+      "expected_crc": 62831,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "113-0007",
+      "file": "pages/P113-0007-000014-000014-887413249ba4.t42",
+      "independent_calculated_crc": 45663,
+      "expected_crc": 45663,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "114-0001",
+      "file": "pages/P114-0001-234519-235957-c58cd15ecd8d.t42",
+      "independent_calculated_crc": 59378,
+      "expected_crc": 59378,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "114-0001",
+      "file": "pages/P114-0001-000006-000014-6a969194b257.t42",
+      "independent_calculated_crc": 41154,
+      "expected_crc": 41154,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "120-0000",
+      "file": "pages/P120-0000-234519-235957-24cf4327e6ac.t42",
+      "independent_calculated_crc": 60983,
+      "expected_crc": 60983,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "120-0000",
+      "file": "pages/P120-0000-000000-000017-aa8eb3f5c920.t42",
+      "independent_calculated_crc": 43271,
+      "expected_crc": 43271,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "121-0000",
+      "file": "pages/P121-0000-234519-235957-86214bb334d0.t42",
+      "independent_calculated_crc": 49752,
+      "expected_crc": 49752,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "121-0000",
+      "file": "pages/P121-0000-000000-000017-fe0e53c0fb9e.t42",
+      "independent_calculated_crc": 34152,
+      "expected_crc": 34152,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "122-0000",
+      "file": "pages/P122-0000-234520-235958-0ada773620cf.t42",
+      "independent_calculated_crc": 11576,
+      "expected_crc": 11576,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "122-0000",
+      "file": "pages/P122-0000-000000-000017-b0de19dc4204.t42",
+      "independent_calculated_crc": 27144,
+      "expected_crc": 27144,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "123-0000",
+      "file": "pages/P123-0000-234520-235958-2eb8efadcc65.t42",
+      "independent_calculated_crc": 22945,
+      "expected_crc": 22945,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "123-0000",
+      "file": "pages/P123-0000-000000-000017-67321ef8aa8d.t42",
+      "independent_calculated_crc": 7825,
+      "expected_crc": 7825,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "124-0000",
+      "file": "pages/P124-0000-234520-235958-22376c985672.t42",
+      "independent_calculated_crc": 31461,
+      "expected_crc": 31461,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "124-0000",
+      "file": "pages/P124-0000-000000-000017-52ce03624288.t42",
+      "independent_calculated_crc": 15829,
+      "expected_crc": 15829,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "125-0000",
+      "file": "pages/P125-0000-234520-235958-d653ca8f0efa.t42",
+      "independent_calculated_crc": 31386,
+      "expected_crc": 31386,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "125-0000",
+      "file": "pages/P125-0000-000000-000017-600be96f3455.t42",
+      "independent_calculated_crc": 15786,
+      "expected_crc": 15786,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "126-0000",
+      "file": "pages/P126-0000-234520-235958-6e06440ba16e.t42",
+      "independent_calculated_crc": 17313,
+      "expected_crc": 17313,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "126-0000",
+      "file": "pages/P126-0000-000001-000017-2a0a9998d8a9.t42",
+      "independent_calculated_crc": 1169,
+      "expected_crc": 1169,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "127-0000",
+      "file": "pages/P127-0000-234520-235958-738cace6bd5f.t42",
+      "independent_calculated_crc": 35248,
+      "expected_crc": 35248,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "127-0000",
+      "file": "pages/P127-0000-000001-000017-7194c91690ce.t42",
+      "independent_calculated_crc": 52864,
+      "expected_crc": 52864,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "128-0000",
+      "file": "pages/P128-0000-234520-235958-09e97f9b115b.t42",
+      "independent_calculated_crc": 29496,
+      "expected_crc": 29496,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "128-0000",
+      "file": "pages/P128-0000-000001-000017-1804d66c94a8.t42",
+      "independent_calculated_crc": 13320,
+      "expected_crc": 13320,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "129-0000",
+      "file": "pages/P129-0000-234520-235958-3f48e9ad167b.t42",
+      "independent_calculated_crc": 53392,
+      "expected_crc": 53392,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "129-0000",
+      "file": "pages/P129-0000-000001-000017-b14cea8dbbc0.t42",
+      "independent_calculated_crc": 38816,
+      "expected_crc": 38816,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "130-0000",
+      "file": "pages/P130-0000-234520-235958-9c612e4e50ca.t42",
+      "independent_calculated_crc": 44597,
+      "expected_crc": 44597,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "130-0000",
+      "file": "pages/P130-0000-000001-000017-e07bd10853c3.t42",
+      "independent_calculated_crc": 59653,
+      "expected_crc": 59653,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "160-0000",
+      "file": "pages/P160-0000-234520-235958-25e34b4b927a.t42",
+      "independent_calculated_crc": 31912,
+      "expected_crc": 31912,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "160-0000",
+      "file": "pages/P160-0000-000001-000017-ca13a47696c5.t42",
+      "independent_calculated_crc": 15256,
+      "expected_crc": 15256,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "161-0002",
+      "file": "pages/P161-0002-234520-235958-93165b7cf398.t42",
+      "independent_calculated_crc": 38334,
+      "expected_crc": 38334,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "161-0002",
+      "file": "pages/P161-0002-000004-000015-ef2c6c520f2a.t42",
+      "independent_calculated_crc": 53902,
+      "expected_crc": 53902,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "162-0002",
+      "file": "pages/P162-0002-234520-235958-b8bb3b17cf04.t42",
+      "independent_calculated_crc": 7852,
+      "expected_crc": 7852,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "162-0002",
+      "file": "pages/P162-0002-000004-000015-974d46a7875b.t42",
+      "independent_calculated_crc": 22940,
+      "expected_crc": 22940,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "164-0000",
+      "file": "pages/P164-0000-234520-235958-162a70ed4533.t42",
+      "independent_calculated_crc": 7706,
+      "expected_crc": 7706,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "164-0000",
+      "file": "pages/P164-0000-000001-000018-2cb169bb57fe.t42",
+      "independent_calculated_crc": 22826,
+      "expected_crc": 22826,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "200-0000",
+      "file": "pages/P200-0000-234520-235958-9635ee4eec9e.t42",
+      "independent_calculated_crc": 37730,
+      "expected_crc": 37730,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "200-0000",
+      "file": "pages/P200-0000-000001-000018-e0fa66b03bdd.t42",
+      "independent_calculated_crc": 54354,
+      "expected_crc": 54354,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "201-0004",
+      "file": "pages/P201-0004-234520-235953-c22495fd2e59.t42",
+      "independent_calculated_crc": 11505,
+      "expected_crc": 11505,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "201-0004",
+      "file": "pages/P201-0004-000004-000015-935a4968de12.t42",
+      "independent_calculated_crc": 27585,
+      "expected_crc": 27585,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "202-0002",
+      "file": "pages/P202-0002-234520-235958-3234c6a15084.t42",
+      "independent_calculated_crc": 45081,
+      "expected_crc": 45081,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "202-0002",
+      "file": "pages/P202-0002-000004-000015-ec33bfa19f34.t42",
+      "independent_calculated_crc": 63273,
+      "expected_crc": 63273,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "208-0000",
+      "file": "pages/P208-0000-234520-235959-0533589a5f75.t42",
+      "independent_calculated_crc": 56993,
+      "expected_crc": 56993,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "208-0000",
+      "file": "pages/P208-0000-000001-000018-0dd924890faf.t42",
+      "independent_calculated_crc": 39313,
+      "expected_crc": 39313,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "209-0000",
+      "file": "pages/P209-0000-234521-235959-68b08bb4aa64.t42",
+      "independent_calculated_crc": 33537,
+      "expected_crc": 33537,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "209-0000",
+      "file": "pages/P209-0000-000001-000018-d764dc8af078.t42",
+      "independent_calculated_crc": 50225,
+      "expected_crc": 50225,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "210-0000",
+      "file": "pages/P210-0000-234521-235959-6221a2a9e7fd.t42",
+      "independent_calculated_crc": 34350,
+      "expected_crc": 34350,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "210-0000",
+      "file": "pages/P210-0000-000001-000018-5e5de2eb2eed.t42",
+      "independent_calculated_crc": 49438,
+      "expected_crc": 49438,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "211-0000",
+      "file": "pages/P211-0000-234521-235959-00dceff15384.t42",
+      "independent_calculated_crc": 8434,
+      "expected_crc": 8434,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "211-0000",
+      "file": "pages/P211-0000-000001-000018-22f35c0d9888.t42",
+      "independent_calculated_crc": 26562,
+      "expected_crc": 26562,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "370-0002",
+      "file": "pages/P370-0002-234521-235959-fb462ef2dc1a.t42",
+      "independent_calculated_crc": 42712,
+      "expected_crc": 42712,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "370-0002",
+      "file": "pages/P370-0002-000004-000015-4e5b35bed610.t42",
+      "independent_calculated_crc": 57832,
+      "expected_crc": 57832,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "372-0002",
+      "file": "pages/P372-0002-234521-235959-bb071c5f05f5-nocrc.t42",
+      "independent_calculated_crc": 10065,
+      "expected_crc": null,
+      "matches_broadcast_crc": null
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "372-0002",
+      "file": "pages/P372-0002-000007-000015-496ace11256b-nocrc.t42",
+      "independent_calculated_crc": 24673,
+      "expected_crc": null,
+      "matches_broadcast_crc": null
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "373-0002",
+      "file": "pages/P373-0002-234521-235959-3f37a6a53b05-nocrc.t42",
+      "independent_calculated_crc": 60168,
+      "expected_crc": null,
+      "matches_broadcast_crc": null
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "373-0002",
+      "file": "pages/P373-0002-000004-000015-778ba117634a-nocrc.t42",
+      "independent_calculated_crc": 44088,
+      "expected_crc": null,
+      "matches_broadcast_crc": null
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "500-0000",
+      "file": "pages/P500-0000-234521-235959-9066c16f1325-nocrc.t42",
+      "independent_calculated_crc": 41339,
+      "expected_crc": null,
+      "matches_broadcast_crc": null
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "500-0000",
+      "file": "pages/P500-0000-000002-000018-2dff7bc66175-nocrc.t42",
+      "independent_calculated_crc": 58955,
+      "expected_crc": null,
+      "matches_broadcast_crc": null
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "501-0000",
+      "file": "pages/P501-0000-234521-235959-7999bf2fea52-nocrc.t42",
+      "independent_calculated_crc": 11963,
+      "expected_crc": null,
+      "matches_broadcast_crc": null
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "501-0000",
+      "file": "pages/P501-0000-000002-000018-7d442e1a68b0-nocrc.t42",
+      "independent_calculated_crc": 27019,
+      "expected_crc": null,
+      "matches_broadcast_crc": null
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "502-0000",
+      "file": "pages/P502-0000-234521-235959-c2e07959f4a4-nocrc.t42",
+      "independent_calculated_crc": 19742,
+      "expected_crc": null,
+      "matches_broadcast_crc": null
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "502-0000",
+      "file": "pages/P502-0000-000002-000018-24545b8e0a5e-nocrc.t42",
+      "independent_calculated_crc": 2606,
+      "expected_crc": null,
+      "matches_broadcast_crc": null
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "503-0000",
+      "file": "pages/P503-0000-234521-235959-d86a1e5e29be-nocrc.t42",
+      "independent_calculated_crc": 3740,
+      "expected_crc": null,
+      "matches_broadcast_crc": null
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "503-0000",
+      "file": "pages/P503-0000-000002-000018-9637f1f7ed15-nocrc.t42",
+      "independent_calculated_crc": 18860,
+      "expected_crc": null,
+      "matches_broadcast_crc": null
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "504-0000",
+      "file": "pages/P504-0000-234521-235959-23d039749422-nocrc.t42",
+      "independent_calculated_crc": 25512,
+      "expected_crc": null,
+      "matches_broadcast_crc": null
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "504-0000",
+      "file": "pages/P504-0000-000002-000018-fd89be79324b-nocrc.t42",
+      "independent_calculated_crc": 9368,
+      "expected_crc": null,
+      "matches_broadcast_crc": null
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "505-0000",
+      "file": "pages/P505-0000-234521-235959-a30757870aef-nocrc.t42",
+      "independent_calculated_crc": 18400,
+      "expected_crc": null,
+      "matches_broadcast_crc": null
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "505-0000",
+      "file": "pages/P505-0000-000002-000019-e1c535716400-nocrc.t42",
+      "independent_calculated_crc": 208,
+      "expected_crc": null,
+      "matches_broadcast_crc": null
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "506-0000",
+      "file": "pages/P506-0000-234521-235959-5c791de11f11-nocrc.t42",
+      "independent_calculated_crc": 19626,
+      "expected_crc": null,
+      "matches_broadcast_crc": null
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "506-0000",
+      "file": "pages/P506-0000-000002-000019-bfa877a651b7-nocrc.t42",
+      "independent_calculated_crc": 2970,
+      "expected_crc": null,
+      "matches_broadcast_crc": null
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "507-0000",
+      "file": "pages/P507-0000-234521-235959-f72c0033aace-nocrc.t42",
+      "independent_calculated_crc": 63345,
+      "expected_crc": null,
+      "matches_broadcast_crc": null
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "507-0000",
+      "file": "pages/P507-0000-000002-000019-97996b96d15c-nocrc.t42",
+      "independent_calculated_crc": 45121,
+      "expected_crc": null,
+      "matches_broadcast_crc": null
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "508-0000",
+      "file": "pages/P508-0000-234521-235959-d2a3d6bef808-nocrc.t42",
+      "independent_calculated_crc": 57713,
+      "expected_crc": null,
+      "matches_broadcast_crc": null
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "508-0000",
+      "file": "pages/P508-0000-000002-000019-f49c199b8ca3-nocrc.t42",
+      "independent_calculated_crc": 42561,
+      "expected_crc": null,
+      "matches_broadcast_crc": null
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "509-0000",
+      "file": "pages/P509-0000-234521-235959-787f9fdc83e4-nocrc.t42",
+      "independent_calculated_crc": 25100,
+      "expected_crc": null,
+      "matches_broadcast_crc": null
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "509-0000",
+      "file": "pages/P509-0000-000002-000019-f52995af3c05-nocrc.t42",
+      "independent_calculated_crc": 9532,
+      "expected_crc": null,
+      "matches_broadcast_crc": null
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "510-0000",
+      "file": "pages/P510-0000-234521-235957-aaa5401b1f14-nocrc.t42",
+      "independent_calculated_crc": 37266,
+      "expected_crc": null,
+      "matches_broadcast_crc": null
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "510-0000",
+      "file": "pages/P510-0000-000000-000019-e5eacd13ff35-nocrc.t42",
+      "independent_calculated_crc": 54946,
+      "expected_crc": null,
+      "matches_broadcast_crc": null
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "511-0000",
+      "file": "pages/P511-0000-234522-235957-173f1bb169e5-nocrc.t42",
+      "independent_calculated_crc": 65303,
+      "expected_crc": null,
+      "matches_broadcast_crc": null
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "511-0000",
+      "file": "pages/P511-0000-000000-000019-513274d8cce7-nocrc.t42",
+      "independent_calculated_crc": 47143,
+      "expected_crc": null,
+      "matches_broadcast_crc": null
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "512-0000",
+      "file": "pages/P512-0000-234522-235957-fa56aaf64cbc-nocrc.t42",
+      "independent_calculated_crc": 12555,
+      "expected_crc": null,
+      "matches_broadcast_crc": null
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "512-0000",
+      "file": "pages/P512-0000-000000-000019-289fbc4805f8-nocrc.t42",
+      "independent_calculated_crc": 30267,
+      "expected_crc": null,
+      "matches_broadcast_crc": null
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "800-0002",
+      "file": "pages/P800-0002-234522-235954-9755d1b293a8-nocrc.t42",
+      "independent_calculated_crc": 24090,
+      "expected_crc": null,
+      "matches_broadcast_crc": null
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "800-0002",
+      "file": "pages/P800-0002-000000-000016-7d78723270fc-nocrc.t42",
+      "independent_calculated_crc": 6442,
+      "expected_crc": null,
+      "matches_broadcast_crc": null
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "100-0003",
+      "file": "pages/P100-0003-234522-235954-d2ae856c37a2.t42",
+      "independent_calculated_crc": 25254,
+      "expected_crc": 25254,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "100-0003",
+      "file": "pages/P100-0003-000005-000016-0eb46eaae200.t42",
+      "independent_calculated_crc": 9622,
+      "expected_crc": 9622,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "101-0001",
+      "file": "pages/P101-0001-234522-235954-71127f9efa5b.t42",
+      "independent_calculated_crc": 62136,
+      "expected_crc": 62136,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "101-0001",
+      "file": "pages/P101-0001-000000-000016-87723e22cbab.t42",
+      "independent_calculated_crc": 46472,
+      "expected_crc": 46472,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "110-0000",
+      "file": "pages/P110-0000-234522-235957-3118ad4ed969.t42",
+      "independent_calculated_crc": 52345,
+      "expected_crc": 52345,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "110-0000",
+      "file": "pages/P110-0000-000000-000019-066090eb7ec5.t42",
+      "independent_calculated_crc": 35657,
+      "expected_crc": 35657,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "111-0001",
+      "file": "pages/P111-0001-234522-235954-46a7b0686083.t42",
+      "independent_calculated_crc": 15050,
+      "expected_crc": 15050,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "111-0001",
+      "file": "pages/P111-0001-000000-000017-abc6aba0f7b5.t42",
+      "independent_calculated_crc": 32250,
+      "expected_crc": 32250,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "112-0001",
+      "file": "pages/P112-0001-234522-235954-1792c0546d65.t42",
+      "independent_calculated_crc": 42936,
+      "expected_crc": 42936,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "112-0001",
+      "file": "pages/P112-0001-000000-000017-79da1195beea.t42",
+      "independent_calculated_crc": 57480,
+      "expected_crc": 57480,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "113-0008",
+      "file": "pages/P113-0008-234522-235952-89bf078b9d6a.t42",
+      "independent_calculated_crc": 53921,
+      "expected_crc": 53921,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "113-0008",
+      "file": "pages/P113-0008-000017-000017-7eb11e0d05c2.t42",
+      "independent_calculated_crc": 38289,
+      "expected_crc": 38289,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "114-0002",
+      "file": "pages/P114-0002-234522-235952-ef639f22cf10.t42",
+      "independent_calculated_crc": 60376,
+      "expected_crc": 60376,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "114-0002",
+      "file": "pages/P114-0002-000000-000017-91f133354cfd.t42",
+      "independent_calculated_crc": 44264,
+      "expected_crc": 44264,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "161-0001",
+      "file": "pages/P161-0001-234523-235955-edcef50591b1.t42",
+      "independent_calculated_crc": 21879,
+      "expected_crc": 21879,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "161-0001",
+      "file": "pages/P161-0001-000001-000017-6e48387fa1a7.t42",
+      "independent_calculated_crc": 4679,
+      "expected_crc": 4679,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "162-0001",
+      "file": "pages/P162-0001-234523-235955-8e74ab558a5a.t42",
+      "independent_calculated_crc": 5596,
+      "expected_crc": 5596,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "162-0001",
+      "file": "pages/P162-0001-000001-000018-6c531d5d6d96.t42",
+      "independent_calculated_crc": 21228,
+      "expected_crc": 21228,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "201-0001",
+      "file": "pages/P201-0001-234523-235956-f615c3b85bb3.t42",
+      "independent_calculated_crc": 37653,
+      "expected_crc": 37653,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "201-0001",
+      "file": "pages/P201-0001-000007-000018-727421d91e86.t42",
+      "independent_calculated_crc": 54309,
+      "expected_crc": 54309,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "202-0001",
+      "file": "pages/P202-0001-234523-235956-e5d9b710d11e.t42",
+      "independent_calculated_crc": 22281,
+      "expected_crc": 22281,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "202-0001",
+      "file": "pages/P202-0001-000001-000018-3e456878882a.t42",
+      "independent_calculated_crc": 4153,
+      "expected_crc": 4153,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "370-0001",
+      "file": "pages/P370-0001-234523-235956-308fdabd6487.t42",
+      "independent_calculated_crc": 64773,
+      "expected_crc": 64773,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "370-0001",
+      "file": "pages/P370-0001-000002-000018-bffb14db399c.t42",
+      "independent_calculated_crc": 47669,
+      "expected_crc": 47669,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "372-0003",
+      "file": "pages/P372-0003-234524-235953-43bc35a3d4c8-nocrc.t42",
+      "independent_calculated_crc": 8043,
+      "expected_crc": null,
+      "matches_broadcast_crc": null
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "372-0003",
+      "file": "pages/P372-0003-000002-000018-2c41eabdbbfe-nocrc.t42",
+      "independent_calculated_crc": 22619,
+      "expected_crc": null,
+      "matches_broadcast_crc": null
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "373-0001",
+      "file": "pages/P373-0001-234524-235956-09e6c068960f-nocrc.t42",
+      "independent_calculated_crc": 15399,
+      "expected_crc": null,
+      "matches_broadcast_crc": null
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "373-0001",
+      "file": "pages/P373-0001-000002-000018-21907354ee4e-nocrc.t42",
+      "independent_calculated_crc": 31511,
+      "expected_crc": null,
+      "matches_broadcast_crc": null
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "800-0001",
+      "file": "pages/P800-0001-234524-235957-6afef616706f-nocrc.t42",
+      "independent_calculated_crc": 15324,
+      "expected_crc": null,
+      "matches_broadcast_crc": null
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "800-0001",
+      "file": "pages/P800-0001-000002-000019-3d08084f6f40-nocrc.t42",
+      "independent_calculated_crc": 31980,
+      "expected_crc": null,
+      "matches_broadcast_crc": null
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "100-0004",
+      "file": "pages/P100-0004-234524-235957-99759ce4731e.t42",
+      "independent_calculated_crc": 57398,
+      "expected_crc": 57398,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "100-0004",
+      "file": "pages/P100-0004-000008-000019-5b3b0958b1d8.t42",
+      "independent_calculated_crc": 42758,
+      "expected_crc": 42758,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "101-0002",
+      "file": "pages/P101-0002-234525-235957-29bdf362e297.t42",
+      "independent_calculated_crc": 6914,
+      "expected_crc": 6914,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "101-0002",
+      "file": "pages/P101-0002-000003-000019-d4352c4721c3.t42",
+      "independent_calculated_crc": 23602,
+      "expected_crc": 23602,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "113-0009",
+      "file": "pages/P113-0009-234525-235955-02fe2e91c2fd.t42",
+      "independent_calculated_crc": 60251,
+      "expected_crc": 60251,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "113-0009",
+      "file": "pages/P113-0009-000019-000019-34b1ccf3adf7.t42",
+      "independent_calculated_crc": 44139,
+      "expected_crc": 44139,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "114-0003",
+      "file": "pages/P114-0003-234525-235955-e9f9597e4945.t42",
+      "independent_calculated_crc": 51834,
+      "expected_crc": 51834,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "114-0003",
+      "file": "pages/P114-0003-000003-000011-d584f13d9e8d.t42",
+      "independent_calculated_crc": 36170,
+      "expected_crc": 36170,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "114-0003",
+      "file": "pages/P114-0003-000019-000019-7db034c2f0ac-partial.t42",
+      "independent_calculated_crc": 31462,
+      "expected_crc": 36170,
+      "matches_broadcast_crc": false
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "201-0002",
+      "file": "pages/P201-0002-234526-235958-366a85d3e7f9.t42",
+      "independent_calculated_crc": 15496,
+      "expected_crc": 15496,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "201-0002",
+      "file": "pages/P201-0002-000009-000009-73c773d42f63.t42",
+      "independent_calculated_crc": 31672,
+      "expected_crc": 31672,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "372-0001",
+      "file": "pages/P372-0001-234526-235956-b964c4812f9e-nocrc.t42",
+      "independent_calculated_crc": 33660,
+      "expected_crc": null,
+      "matches_broadcast_crc": null
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "372-0001",
+      "file": "pages/P372-0001-000004-000013-b14b24a99d6b-nocrc.t42",
+      "independent_calculated_crc": 50252,
+      "expected_crc": null,
+      "matches_broadcast_crc": null
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "100-0001",
+      "file": "pages/P100-0001-234527-235949-f87ce076b262.t42",
+      "independent_calculated_crc": 41332,
+      "expected_crc": 41332,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "100-0001",
+      "file": "pages/P100-0001-000000-000011-796594845e09.t42",
+      "independent_calculated_crc": 58948,
+      "expected_crc": 58948,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "113-0001",
+      "file": "pages/P113-0001-234528-235957-3834c4564414.t42",
+      "independent_calculated_crc": 44969,
+      "expected_crc": 44969,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "201-0003",
+      "file": "pages/P201-0003-234529-235950-8f459a11c124.t42",
+      "independent_calculated_crc": 54441,
+      "expected_crc": 54441,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "201-0003",
+      "file": "pages/P201-0003-000001-000012-903c0f08c147.t42",
+      "independent_calculated_crc": 37785,
+      "expected_crc": 37785,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "100-0002",
+      "file": "pages/P100-0002-234530-235951-cb783695831e.t42",
+      "independent_calculated_crc": 56553,
+      "expected_crc": 56553,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "100-0002",
+      "file": "pages/P100-0002-235706-235706-f9d258d9b43d-nocrc.t42",
+      "independent_calculated_crc": 23132,
+      "expected_crc": null,
+      "matches_broadcast_crc": null
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "100-0002",
+      "file": "pages/P100-0002-000003-000014-530a9fd12233.t42",
+      "independent_calculated_crc": 39897,
+      "expected_crc": 39897,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "113-0002",
+      "file": "pages/P113-0002-234530-235935-f4508a36f667.t42",
+      "independent_calculated_crc": 34892,
+      "expected_crc": 34892,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "113-0002",
+      "file": "pages/P113-0002-000000-000000-9cf103af4949.t42",
+      "independent_calculated_crc": 53116,
+      "expected_crc": 53116,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "113-0003",
+      "file": "pages/P113-0003-234533-235938-dc99ee7f3086.t42",
+      "independent_calculated_crc": 64770,
+      "expected_crc": 64770,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "113-0003",
+      "file": "pages/P113-0003-000003-000003-4eeb7bb8aed7.t42",
+      "independent_calculated_crc": 47666,
+      "expected_crc": 47666,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "113-0004",
+      "file": "pages/P113-0004-234536-235941-4624ab318554.t42",
+      "independent_calculated_crc": 34307,
+      "expected_crc": 34307,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "113-0004",
+      "file": "pages/P113-0004-000006-000006-eead6f342447.t42",
+      "independent_calculated_crc": 49459,
+      "expected_crc": 49459,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "113-0005",
+      "file": "pages/P113-0005-234539-235944-0459d98750bb.t42",
+      "independent_calculated_crc": 15792,
+      "expected_crc": 15792,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "113-0005",
+      "file": "pages/P113-0005-000008-000008-b2bf010c0993.t42",
+      "independent_calculated_crc": 31360,
+      "expected_crc": 31360,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "113-0006",
+      "file": "pages/P113-0006-234541-235946-2977d272aee7.t42",
+      "independent_calculated_crc": 46928,
+      "expected_crc": 46928,
+      "matches_broadcast_crc": true
+    },
+    {
+      "recording": "TVR-20261021-234519--20261022-000019-0C46F8C1",
+      "page": "113-0006",
+      "file": "pages/P113-0006-000011-000011-7e19ff68ae69.t42",
+      "independent_calculated_crc": 61536,
+      "expected_crc": 61536,
       "matches_broadcast_crc": true
     }
   ]

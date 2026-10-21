@@ -1,0 +1,19 @@
+using demux 'dvb0.demux0'
+reading channels from file 'channels.conf'
+service has pid type 06:  117
+tuning to 650000000 Hz
+dvb_dev_set_bufsize: buffer set to 6160384
+pass all PIDs to TS
+  dvb_set_pesfilter 8192
+       (0x00)
+
+Lock   (0x1f) C/N= 26.00dB UCB= 0 postBER= 0
+
+Lock   (0x1f) C/N= 26.00dB UCB= 0 postBER= 0
+
+Lock   (0x1f) Signal= -70.00dBm C/N= 26.00dB UCB= 0 postBER= 0
+
+Record to file '-' started
+received 3622546432 bytes (3930 Kbytes/sec)
+Lock   (0x1f) Signal= -69.00dBm C/N= 29.00dB UCB= 0 postBER= 0
+

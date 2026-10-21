@@ -1,0 +1,41 @@
+{
+  "status": "complete",
+  "started_utc": "2026-10-21T20:45:21+00:00",
+  "requested_seconds": 900,
+  "service": "TVR 1",
+  "teletext_pid": 117,
+  "selected_pids": [
+    0,
+    16,
+    17,
+    20,
+    117,
+    7001,
+    7002,
+    7003,
+    7004,
+    7005,
+    7006,
+    7007,
+    7008,
+    7009,
+    7010,
+    7012
+  ],
+  "notes": [
+    "Teletext plus PAT/NIT/SDT/TDT/TOT and PAT-discovered PMT packets.",
+    "Audio/video and their PCR streams omitted; not a playable TV multiplex.",
+    "Source index sidecar is unsigned 64-bit little-endian, zero-based TS packet indices.",
+    "No source timing is synthesized. Filtered TS preserves original PES timestamps."
+  ],
+  "ended_utc": "2026-10-21T21:00:23+00:00",
+  "elapsed_seconds": 901.478,
+  "exit_code": 0,
+  "source_packets": 19268864,
+  "saved_packets": 136298,
+  "saved_bytes": 25624024,
+  "sync_errors": 0,
+  "trailing_bytes": 0,
+  "source_mux_sha256": "87151ca1534e1fe9f66188aa82852c3f7d2c32d5bfd485ada98533821e03fc4c",
+  "broadcast_sha256": "21770bd9f07f57447277fd8a30faf5712411e501740cf4de93b571d0cde3ad2c"
+}

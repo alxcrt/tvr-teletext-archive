@@ -27,9 +27,15 @@ for(const directory of readdirSync(root)){
     }
    }lower=next;
   }
-  const scan=Buffer.alloc(height*(1+width*4));for(let y=0;y<height;y++)pixels.copy(scan,y*(width*4+1)+1,y*width*4,(y+1)*width*4);
-  const ihdr=Buffer.alloc(13);ihdr.writeUInt32BE(width,0);ihdr.writeUInt32BE(height,4);ihdr[8]=8;ihdr[9]=6;
-  writeFileSync(resolve(root,directory,page.file.replace('.t42','.png')),Buffer.concat([Buffer.from([137,80,78,71,13,10,26,10]),chunk('IHDR',ihdr),chunk('IDAT',deflateSync(scan,{level:9})),chunk('IEND',Buffer.alloc(0))]));count++;
+  const outWidth=720,outHeight=600,scan=Buffer.alloc(outHeight*(1+outWidth*4));
+  for(let y=0;y<outHeight;y++)for(let x=0;x<outWidth;x++){
+   const from=(Math.floor(y*height/outHeight)*width+Math.floor(x*width/outWidth))*4,to=y*(outWidth*4+1)+1+x*4;
+   for(let k=0;k<4;k++)scan[to+k]=pixels[from+k];
+  }
+  const ihdr=Buffer.alloc(13);ihdr.writeUInt32BE(outWidth,0);ihdr.writeUInt32BE(outHeight,4);ihdr[8]=8;ihdr[9]=6;
+  const source=`https://github.com/alxcrt/tvr-teletext-archive/tree/main/recordings/${directory}`;
+  const comment=`Derived Level 1 preview; source page packet SHA-256 ${page.source_sha256}; font/character rendering approximate.`;
+  writeFileSync(resolve(root,directory,page.file.replace('.t42','.png')),Buffer.concat([Buffer.from([137,80,78,71,13,10,26,10]),chunk('IHDR',ihdr),chunk('tEXt',Buffer.from('Source\0'+source)),chunk('tEXt',Buffer.from('Comment\0'+comment)),chunk('IDAT',deflateSync(scan,{level:9})),chunk('IEND',Buffer.alloc(0))]));count++;
  }
 }
 console.log(`Rendered ${count} version previews`);

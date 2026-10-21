@@ -41,6 +41,7 @@ def inspect(raw):
     if not raw or len(raw)%42:
         raise ValueError('Expected nonempty, aligned 42-byte T42 packets')
     stats = Counter(); packet_types = Counter(); languages = Counter()
+    bad_addresses=[]; bad_headers=[]; bad_display=[]
     active = {}; pages = defaultdict(dict); events = []; global_indices = []
     def finish(magazine, reason='next-header'):
         cycle = active.pop(magazine, None)
@@ -89,14 +90,14 @@ def inspect(raw):
         p = raw[index*42:(index+1)*42]
         a, ac = HAMMING[p[0]]; b, bc = HAMMING[p[1]]
         if a<0 or b<0:
-            stats['uncorrectable_addresses'] += 1; continue
+            stats['uncorrectable_addresses'] += 1; bad_addresses.append(index); continue
         correction = ac+bc; stats['corrected_address_bits'] += correction
         address = a|(b<<4); mag = (address&7) or 8; row = address>>3
         packet_types[str(row)] += 1
         if row == 0:
             decoded = [HAMMING[x] for x in p[2:10]]
             if any(n<0 for n,_ in decoded):
-                finish(mag); stats['uncorrectable_headers'] += 1; continue
+                finish(mag); stats['uncorrectable_headers'] += 1; bad_headers.append(index); continue
             n = [v for v,_ in decoded]; hc = sum(c for _,c in decoded)
             stats['corrected_header_bits'] += hc
             if n[7]&1:
@@ -126,6 +127,7 @@ def inspect(raw):
                 cycle['rows'][row] = p[2:]
                 errors = sum(byte.bit_count()%2 != 1 for byte in p[2:])
                 cycle['parity_errors'] += errors; stats['display_parity_errors'] += errors
+                if errors: bad_display.append(dict(packet=index,parity_errors=errors))
             else: cycle['extensions'][str(row)] += 1
         else:
             stats['unassociated_or_service_packets'] += 1; global_indices.append(index)
@@ -139,7 +141,10 @@ def inspect(raw):
     return dict(packets=len(raw)//42,bytes=len(raw),sha256=digest(raw),crc32=f'{zlib.crc32(raw):08X}',
                 statistics=dict(stats),packet_types=dict(packet_types),national_options=dict(languages),
                 page_numbers=sorted({key.split('-')[0] for key in pages}),
+                announced_page_subpages=sorted({h['number']+'-'+h['subpage'] for h in events if h['number'][1:]!='ff'}),
                 page_subpages=len(pages),content_versions=sum(len(v) for v in pages.values()),
+                uncorrectable_address_packet_indices=bad_addresses,
+                uncorrectable_header_packet_indices=bad_headers,display_parity_error_packets=bad_display,
                 pages=dict(pages),selected=selected,headers=events,unassociated_packet_indices=global_indices)
 
 

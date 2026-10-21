@@ -4,7 +4,7 @@
   "host_started_utc": null,
   "host_ended_utc": null,
   "timing_basis": "Duration argument recorded by the original capture procedure; use preserved on-air headers for observed content times.",
-  "scope": "Original PID 117 TS packets filtered from the full initial multiplex; source positions retained.",
+  "scope": "Original teletext and PAT/NIT/SDT/TDT/TOT/PMT packets filtered from the original full multiplex; source positions retained. Expanded preservation selection; T42 bytes unchanged.",
   "teletext_pid": 117,
   "frequency_hz": 650000000,
   "bandwidth_hz": 8000000,
@@ -16,5 +16,23 @@
   ],
   "original_full_mux_sha256": "c01a4bfc3b7f0b2810b3c1d1f8488813b3b6c09b9532d589d09cbb3794099eac",
   "original_full_mux_bytes": 80662528,
-  "original_full_mux_scope": "Protected original retained separately; not part of this teletext-only public collection."
+  "original_full_mux_scope": "Protected original retained separately; not part of this teletext-only public collection.",
+  "selected_pids": [
+    0,
+    16,
+    17,
+    20,
+    117,
+    7001,
+    7002,
+    7003,
+    7004,
+    7005,
+    7006,
+    7007,
+    7008,
+    7009,
+    7010,
+    7012
+  ]
 }
