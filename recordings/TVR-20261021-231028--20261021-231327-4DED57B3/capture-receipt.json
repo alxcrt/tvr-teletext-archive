@@ -1,0 +1,17 @@
+{
+  "status": "complete",
+  "requested_seconds": 180,
+  "host_started_utc": null,
+  "host_ended_utc": null,
+  "timing_basis": "Duration argument recorded by the original capture procedure; use preserved on-air headers for observed content times.",
+  "scope": "Original PID 117 packets saved during reception; no source-index sidecar was recorded.",
+  "teletext_pid": 117,
+  "frequency_hz": 650000000,
+  "bandwidth_hz": 8000000,
+  "receiver": "WinTV-soloHD 2040:8268",
+  "location": "Ia\u0219i, Romania",
+  "notes": [
+    "Original host timestamps were not separately recorded; no values inferred from file mtime.",
+    "Audio/video and PCR streams are omitted."
+  ]
+}

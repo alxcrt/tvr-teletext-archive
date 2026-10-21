@@ -1,0 +1,12 @@
+{
+  "source_bytes": 80662528,
+  "pid_ts_packets": 2506,
+  "pes_packets": 500,
+  "teletext_packets": 9000,
+  "stuffing_units": 500,
+  "truncated_pes": 1,
+  "pid": 117,
+  "source_sha256": "c01a4bfc3b7f0b2810b3c1d1f8488813b3b6c09b9532d589d09cbb3794099eac",
+  "t42_sha256": "b33e9dde633278f76f8b711d69f0fa87ceabbef4222999fa8f116cd173eb7231",
+  "timing_preserved": false
+}

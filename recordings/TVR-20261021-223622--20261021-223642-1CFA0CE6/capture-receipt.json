@@ -1,0 +1,20 @@
+{
+  "status": "complete",
+  "requested_seconds": 20,
+  "host_started_utc": null,
+  "host_ended_utc": null,
+  "timing_basis": "Duration argument recorded by the original capture procedure; use preserved on-air headers for observed content times.",
+  "scope": "Original PID 117 TS packets filtered from the full initial multiplex; source positions retained.",
+  "teletext_pid": 117,
+  "frequency_hz": 650000000,
+  "bandwidth_hz": 8000000,
+  "receiver": "WinTV-soloHD 2040:8268",
+  "location": "Ia\u0219i, Romania",
+  "notes": [
+    "Original host timestamps were not separately recorded; no values inferred from file mtime.",
+    "Audio/video and PCR streams are omitted."
+  ],
+  "original_full_mux_sha256": "c01a4bfc3b7f0b2810b3c1d1f8488813b3b6c09b9532d589d09cbb3794099eac",
+  "original_full_mux_bytes": 80662528,
+  "original_full_mux_scope": "Protected original retained separately; not part of this teletext-only public collection."
+}

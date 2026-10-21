@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Cite the specific recording ID and SHA-256 when using captured material."
+title: "TVR Teletext Archive (Romania)"
+type: dataset
+authors:
+  - family-names: alxcrt
+    website: "https://github.com/alxcrt"
+url: "https://github.com/alxcrt/tvr-teletext-archive"
+repository-code: "https://github.com/alxcrt/tvr-teletext-archive"
+keywords:
+  - teletext
+  - TVR
+  - Romania
+  - DVB-T2
+  - T42
+  - digital preservation

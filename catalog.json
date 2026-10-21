@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "title": "TVR Teletext Archive · Romania",
+  "provenance": "Original directly received DVB-T2 teletext; independent archive.",
+  "recordings": [
+    {
+      "id": "TVR-20261021-223622--20261021-223642-1CFA0CE6",
+      "path": "TVR-20261021-223622--20261021-223642-1CFA0CE6",
+      "first_header": "TVR\u0007506 Mie 21 Oct 2026 22:36:22",
+      "last_header": "TVR\u0007111 Mie 21 Oct 2026 22:36:42",
+      "packets": 9000,
+      "bytes": 378000,
+      "sha256": "b33e9dde633278f76f8b711d69f0fa87ceabbef4222999fa8f116cd173eb7231",
+      "page_numbers": 46,
+      "page_subpages": 71,
+      "content_versions": 72,
+      "pages_index": "pages.json"
+    },
+    {
+      "id": "TVR-20261021-231028--20261021-231327-4DED57B3",
+      "path": "TVR-20261021-231028--20261021-231327-4DED57B3",
+      "first_header": "TVR\u0007111 Mie 21 Oct 2026 23:10:28",
+      "last_header": "TVR\u0007126 Mie 21 Oct 2026 23:13:27",
+      "packets": 81000,
+      "bytes": 3402000,
+      "sha256": "f306300a973df4d11a669ebad4481cc7600fbe324ffb74cbc41381903260884b",
+      "page_numbers": 46,
+      "page_subpages": 73,
+      "content_versions": 74,
+      "pages_index": "pages.json"
+    }
+  ],
+  "continuity": "Separate bounded recordings with gaps; never presented as continuous."
+}
